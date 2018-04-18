@@ -1,3 +1,3 @@
-exports.sendByHouseName = (req, res, next) => {
+exports.sendHouseByName = (req, res, next) => {
   
 }
