@@ -5,12 +5,13 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node listen.js"
+    "dev": "nodemon listen.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "ejs": "^2.5.8",
-    "express": "^4.16.3"
+    "express": "^4.16.3",
+    "nodemon": "^1.17.3"
   }
 }
